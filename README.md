@@ -1,6 +1,6 @@
 # 📈 StockCast-LSTM: Stock Price Prediction with LSTM
 
-![StockCast-LSTM](https://user-images.githubusercontent.com/example/banner.png)  
+
 
 StockCast-LSTM is a **stock price prediction project** based on **Long Short-Term Memory (LSTM) networks**. The goal is to use historical stock prices to forecast future trends and evaluate model performance on a test set.  
 
