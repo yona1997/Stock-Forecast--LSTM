@@ -18,7 +18,6 @@ StockCast-LSTM is a **stock price prediction project** based on **Long Short-Ter
 ## 📊 Visual Results  
 
 ### 🎯 Predictions on the Test Set  
-![True vs Predicted](https://user-images.githubusercontent.com/example/predictions.png)  
 
 📌 **Interpretation**:  
 - The **blue line** represents the **real values**  
@@ -26,7 +25,6 @@ StockCast-LSTM is a **stock price prediction project** based on **Long Short-Ter
 - The model follows the general trend but may miss certain peaks  
 
 ### 🔍 Prediction Errors  
-![Error Distribution](https://user-images.githubusercontent.com/example/error_distribution.png)  
 
 📌 **Interpretation**:  
 - Most errors are small and centered around **0**, indicating good generalization  
@@ -46,3 +44,57 @@ The model is based on an **LSTM network** with the following parameters:
 - **Loss Function**: MSE (Mean Squared Error)  
 
 📌 **Model Diagram**:  
+
+The **LSTM model architecture** used in this project is structured as follows:
+(Input) -> [LSTM Layer] -> [LSTM Layer] -> [Fully Connected Layer] -> (Output)
+
+## 📌 Performance Summary  
+
+| **Metric**                     | **Value**    |
+|--------------------------------|-------------|
+| **Test Loss**                  | 0.0013      |
+| **Test RMSE**                  | 0.0357      |
+| **R² Score (Test)**            | 0.8390      |
+| **% of correct predictions (±10%)** | 96.92%  |
+| **% of correct trend predictions** | 51.09%  |
+| **Sharpe Ratio**               | 0.06        |
+
+📌 **Interpretation**: The model **predicts absolute values accurately** but struggles more with **trend direction accuracy**. Further optimizations may be required to improve trend detection.
+
+
+---
+
+## 📌 Possible Improvements  
+
+🔹 **Feature Engineering**: Add more technical indicators such as Moving Averages, MACD, and RSI to improve trend detection.  
+🔹 **External Data Integration**: Incorporate financial news, economic indicators, and market trends to provide broader context to price movements.  
+🔹 **Hybrid Models**: Experiment with **LSTM + Transformer or Attention Mechanisms** to enhance long-term pattern recognition.  
+🔹 **Hyperparameter Optimization**: Further fine-tune parameters, including testing different **time_step lengths** to optimize predictive accuracy.  
+
+---
+
+## 🤝 Contribute  
+
+Contributions are welcome! Feel free to:  
+
+- **🐛 Report a Bug** – Identify and document issues.  
+- **💡 Suggest an Improvement** – Share ideas to optimize the model.  
+- **🚀 Share Experiments** – Implement variations and compare results.  
+
+---
+
+## 📜 License  
+
+This project is licensed under the **MIT License** – feel free to use, modify, and share it.  
+
+---
+
+## 📩 Contact  
+
+📧 **Email**: yona.e@hotmail.fr  
+🐙 **GitHub**: https://github.com/yona1997
+🔗 **LinkedIn**: http://linkedin.com/in/yona-el-bar-082190223
+
+---
+
+🔥 **If you find this project useful, don't forget to ⭐ the repository!** 🔥  
