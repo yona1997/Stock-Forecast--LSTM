@@ -92,7 +92,7 @@ This project is licensed under the **MIT License** – feel free to use, modify,
 ## 📩 Contact  
 
 📧 **Email**: yona.e@hotmail.fr  
-🐙 **GitHub**: https://github.com/yona1997
+🐙 **GitHub**: https://github.com/yona1997  
 🔗 **LinkedIn**: http://linkedin.com/in/yona-el-bar-082190223
 
 ---
